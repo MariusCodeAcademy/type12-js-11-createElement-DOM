@@ -16,7 +16,17 @@ divEl.append(strongEl, ' This is and alert');
 
 // document.body.appendChild(divEl);
 
-//  sarasas
+//  sarasas traversing the dom
 
 const colorsListEl = document.getElementById('ul-colors');
 console.log('colorsListEl ===', colorsListEl);
+// tevinis el = parentElement
+const sectionEl = colorsListEl.parentElement;
+console.log('sectionEl ===', sectionEl);
+
+// priekyje esantis el nextElementSibling
+const pEl = colorsListEl.nextElementSibling;
+pEl.style.fontSize = '50px';
+
+const secondLiEl = colorsListEl.children[1];
+secondLiEl.style.color = 'coral';
