@@ -14,7 +14,7 @@ divEl.append(strongEl, ' This is and alert');
 
 // divEl.textContent = ' This is and alert';
 
-// document.body.appendChild(divEl);
+document.body.appendChild(divEl);
 
 //  sarasas traversing the dom
 

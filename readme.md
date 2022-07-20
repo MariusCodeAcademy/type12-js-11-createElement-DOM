@@ -48,3 +48,11 @@ pvz `createLargeArticle('#app')` - sukurs struktura ir ikels i elementa su id 'a
   <li>Sekmadienis</li>
 </ul>
 ```
+
+6. atskirame helper.js faile aprasyti funkcija kuri sukuria ir patalpina tokia struktura
+
+```html
+<div class="alert"><strong>Hi there</strong> This is and alert <span>✖️</span></div>
+```
+
+6.1 padaryti kad paspaudus <span>✖️</span> elementa alertas isnyktu po 1 sekundes
