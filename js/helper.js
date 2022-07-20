@@ -1,3 +1,4 @@
+'use strict';
 /**
  * this function craates element adds class and text
  * @param {string} tag = tag of the element
